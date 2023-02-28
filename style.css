@@ -1,0 +1,21 @@
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.bubble {
+  content: "";
+  position: absolute;
+  left: 50px;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background: black;
+  animation: anim 4s forwards;
+}
+
+@keyframes anim {
+  to {
+    top: 100px;
+  }
+}
