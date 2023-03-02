@@ -8,7 +8,7 @@ over.classList.add("gameover");
 
 const bubbleGame = () => {
   const bubble = document.createElement("span");
-  let size = Math.random() * 300 + 80 + "px";
+  let size = Math.random() * 100 + 80 + "px";
 
   body.appendChild(bubble);
   bubble.classList.add("bubble");
