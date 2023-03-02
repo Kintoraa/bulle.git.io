@@ -35,6 +35,7 @@ const bubbleGame = () => {
       alert("Vous avez atteint les 10 Points ! Félicitation ! ");
       counter = 0;
       count.innerHTML = counter;
+      location.reload();
     }
   });
 
